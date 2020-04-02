@@ -1,0 +1,29 @@
+{
+  "name": "CSS-Master",
+  "version": "1.0.0",
+  "description": "CSS Master with Grid and SCSS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HUIWON-RHO/CSS-Master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HUIWON-RHO/CSS-Master/issues"
+  },
+  "homepage": "https://github.com/HUIWON-RHO/CSS-Master#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.7.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
+}
